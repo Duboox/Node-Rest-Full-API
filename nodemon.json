@@ -1,0 +1,5 @@
+{
+    "env": {
+        "MY_GLOBAL_VAR": "test"
+    }
+}

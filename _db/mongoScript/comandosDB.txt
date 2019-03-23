@@ -1,0 +1,11 @@
+// Comandos de respaldo
+
+mongodump --db tecnibilds --out /Node-Rest-Full-API/_db/mongoBackup
+
+
+
+// JOSHUA
+ // -respaldo
+ mongodump -d tecnibilds -o ./mongoBackup
+ // -restaurar
+ mongorestore -d tecnibilds ./mongoBackup/tecnibilds

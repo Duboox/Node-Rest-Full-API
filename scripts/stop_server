@@ -1,0 +1,5 @@
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+isExistApp = `pgrep apache2`
+if [[ -n  $isExistApp ]]; then
+    sudo service apache2 stop        
+fi

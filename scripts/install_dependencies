@@ -1,0 +1,4 @@
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+sudo systemctl stop tecnibildsnode
+sudo rm -rf /home/ubuntu/tecnibildsapiservernodedev/
+sudo npm install

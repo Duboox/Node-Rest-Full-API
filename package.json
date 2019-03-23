@@ -1,0 +1,31 @@
+{
+  "name": "tecnibilds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": " echo",
+    "start": "nodemon server.js"
+  },
+  "author": "Edgard",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.289.0",
+    "base64-img": "^1.0.4",
+    "bcrypt": "^2.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.3",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.7",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.1",
+    "rollbar": "^2.4.4"
+  }
+}
